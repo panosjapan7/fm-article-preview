@@ -126,10 +126,14 @@ body {
                     align-items: center;
                     border-radius: 50%;
                 }
+                .share-button-container:hover {
+                    cursor: pointer;
+                }
                     .share-button-container img{
                         width: 15px;
                         height: auto;
                     }
+                    
                 
                 .social-menu-container-mobile {
                     display: none;
@@ -137,12 +141,11 @@ body {
 
                 .social-menu-container-desktop {
                     position: absolute;
-                    right: 291px;
-                    bottom: 360px;
+                    right: 122px;
+                    bottom: 362px;
 
                     background-color: hsl(217, 19%, 35%);
                     box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
-                    display: flex;
                     justify-content: space-around;
                     align-items: center;
 
@@ -150,11 +153,10 @@ body {
                     height: 50px;
 
                     border-radius: 10px;
+
                     display: none;
                 }
-                .social-menu-container-desktop.active {
-                    display: flex;
-                }
+                
                     .share-social-container-desktop {
                      display: flex;   
                      gap: 15px;
@@ -173,6 +175,9 @@ body {
                             .social-media-icons-container-desktop img{
                                 width: 18px;
                                 height: 18px;
+                            }
+                            .social-media-icons-container-desktop img:hover {
+                                cursor: pointer;
                             }
                 .triangle {
                     width: 0;
