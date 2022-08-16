@@ -3,3 +3,52 @@
     padding: 0;
     font-family: 'Manrope', sans-serif;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+    .container {
+        border-radius: 10px;
+        /* border: solid 1px black; */
+
+        width: auto;
+
+        display: flex;
+        justify-content: center;
+        
+    }
+        .image-container {
+            width: 350px;
+            height: 320px;
+            overflow: hidden;
+            border-radius: 10px 0px 0px 10px;
+        }
+            .image-container img {
+                width: 123%;
+                height: 100%;
+            }
+
+        .content-container {
+            background-color: red;
+            width: 500px;
+            height: auto;
+            overflow: hidden;
+            border-radius: 0px 10px 10px 0px;
+        }
+
+
+
+    footer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+/* End of Desktop CSS */
+
+
+/* Mobile CSS */
