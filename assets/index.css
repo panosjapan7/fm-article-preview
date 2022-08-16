@@ -53,10 +53,8 @@ body {
             }
 
         .content-container {
-            /* background-color: red; */
             max-width: 500px;
             max-height: auto;
-            overflow: hidden;
             border-radius: 0px 10px 10px 0px;
 
             display: flex;
@@ -125,6 +123,7 @@ body {
                     justify-content: center;
                     align-items: center;
                     border-radius: 50%;
+                    position: relative;
                 }
                 .share-button-container:hover {
                     cursor: pointer;
@@ -134,61 +133,60 @@ body {
                         height: auto;
                     }
                     
-                
                 .social-menu-container-mobile {
                     display: none;
                 }
 
-                .social-menu-container-desktop {
-                    position: absolute;
-                    right: 122px;
-                    bottom: 362px;
+                    .social-menu-container-desktop {
+                        position: absolute;
+                        right: -80px;
+                        bottom: 60px;
 
-                    background-color: hsl(217, 19%, 35%);
-                    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
-                    justify-content: space-around;
-                    align-items: center;
+                        background-color: hsl(217, 19%, 35%);
+                        box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+                        justify-content: space-around;
+                        align-items: center;
 
-                    width: 200px;
-                    height: 50px;
+                        width: 200px;
+                        height: 50px;
 
-                    border-radius: 10px;
+                        border-radius: 10px;
 
-                    display: none;
-                }
-                
-                    .share-social-container-desktop {
-                     display: flex;   
-                     gap: 15px;
+                        display: none;
                     }
-                        .share-text-desktop {
-                            text-transform: uppercase;
-                            color: hsl(212, 23%, 69%);
-                            letter-spacing: 5px;
-                            font-size: 12px;
-                            /* margin-right: 20px; */
+                
+                        .share-social-container-desktop {
+                        display: flex;   
+                        gap: 15px;
                         }
-                        .social-media-icons-container-desktop {
-                            display: flex;   
-                            gap: 12px;
-                        }
-                            .social-media-icons-container-desktop img{
-                                width: 18px;
-                                height: 18px;
+                            .share-text-desktop {
+                                text-transform: uppercase;
+                                color: hsl(212, 23%, 69%);
+                                letter-spacing: 5px;
+                                font-size: 12px;
+                                /* margin-right: 20px; */
                             }
-                            .social-media-icons-container-desktop img:hover {
-                                cursor: pointer;
+                            .social-media-icons-container-desktop {
+                                display: flex;   
+                                gap: 12px;
                             }
-                .triangle {
-                    width: 0;
-                    height: 0;
-                    border: 15px solid transparent;
-                    border-top: 0;
-                    border-top: 20px solid hsl(217, 19%, 35%);;
-                    position: absolute;
-                    bottom: -28px;
-                    right: 83px;
-                }
+                                .social-media-icons-container-desktop img{
+                                    width: 18px;
+                                    height: 18px;
+                                }
+                                .social-media-icons-container-desktop img:hover {
+                                    cursor: pointer;
+                                }
+                    .triangle {
+                        width: 0;
+                        height: 0;
+                        border: 15px solid transparent;
+                        border-top: 0;
+                        border-top: 20px solid hsl(217, 19%, 35%);;
+                        position: absolute;
+                        bottom: -28px;
+                        right: 83px;
+                    }
 
     footer {
         margin-top: 20px;
@@ -223,7 +221,7 @@ body {
         .content-container {
             max-width: 400px;
             max-height: auto;
-            overflow: hidden;
+            /* overflow: hidden; */
             border-radius: 0px 0px 10px 10px;
             padding: 0px;
         }
@@ -256,10 +254,10 @@ body {
                 margin-left: 32px;
             }
             .user-details-container {
-                display: none;
+                /* display: none; */
             }
             .share-button-container {
-                display: none;
+                /* display: none; */
             }
             .social-menu-container-mobile {
                 background-color: hsl(217, 19%, 35%);
@@ -269,6 +267,8 @@ body {
 
                 width: 100%;
                 height: 60px;
+                display: none;
+                border-radius: 0 0 10px 10px;
             }
                 .share-social-container {
                         display: flex;
@@ -292,7 +292,7 @@ body {
                             height: 20px;
                         }
 
-                    .share-button-two {
+                    .share-button-mobile {
                         width: 30px;
                         height: 30px;
                         background-color: hsl(214, 17%, 51%);
@@ -301,7 +301,7 @@ body {
                         align-items: center;
                         border-radius: 50%;
                     }
-                        .share-button-two svg{
+                        .share-button-mobile svg{
                             /* width: 15px;
                             height: auto; */
                         }
